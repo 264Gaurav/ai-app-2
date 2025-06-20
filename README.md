@@ -53,3 +53,15 @@ Langgraph can be used in two main ways:
 ## Tavily - web search tool
 
 get TAVILY_API_KEY and put it in .env
+
+# AI Agent using Langgraph
+
+Langgraph enables the creation of AI agents by providing tools for graph-based reasoning and decision-making.
+
+![AI Agent Diagram](images/agent.png)
+
+# ReAct Agent Architecture using Langgraph
+
+The ReAct agent combines reasoning and acting capabilities, leveraging Langgraph to structure interactions and make informed decisions.
+
+![ReAct Agent Diagram](images/reActAgent.png)
