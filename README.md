@@ -65,3 +65,9 @@ Langgraph enables the creation of AI agents by providing tools for graph-based r
 The ReAct agent combines reasoning and acting capabilities, leveraging Langgraph to structure interactions and make informed decisions.
 
 ![ReAct Agent Diagram](images/reActAgent.png)
+
+# Chatbot with Memory
+
+This chatbot is designed to remember previous conversations within a chat thread or configuration, enabling more context-aware interactions.
+
+![Chatbot with Memory Diagram](images/reActAgent.png)
