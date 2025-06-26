@@ -4,3 +4,4 @@ langsmith
 python-dotenv
 langchain_groq
 langchain_tavily
+streamlit
