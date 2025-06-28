@@ -177,3 +177,32 @@ Choose the mode that aligns with your needs:
 - **values** for simple, complete snapshots
 - **updates** for efficient incremental updates
 - **tokens** for immediate token‐level streaming
+
+---
+
+# Human Feedback in the loop / Human in the loop :
+
+### Human-in-the-Loop is a design pattern in AI workflows where humans are actively involved at certain stages of a process — typically to:
+
+1. Review or approve intermediate results
+
+2. Correct errors
+
+3. Guide decisions
+
+4. Choose between multiple options
+
+In LangGraph, this becomes especially powerful when combined with streaming, because you can pause at intermediate steps, wait for human feedback, and then continue execution.
+
+Example pseudocode:
+
+```bash
+for update in graph.stream(input, stream_mode='updates'):
+    display(update)
+
+    if needs_human_approval(update):
+        feedback = wait_for_user_input()
+        update.update(feedback)
+```
+
+---
